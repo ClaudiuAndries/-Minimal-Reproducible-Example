@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChapsPizza.Views.MainPage"
+			 xmlns:vm="clr-namespace:ChapsPizza.ViewModels"
+			 Title="TestClaudiu">
+	
+	<NavigationPage.TitleView>
+		<Label Text="Test" TextColor="Black"/>
+		<!--<Image Source="logo.png" Background="Orange"
+			VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand"
+			HeightRequest="40" WidthRequest="40"/>-->
+	</NavigationPage.TitleView>
+
+	<!--<ContentPage.BindingContext>
+		<vm:MainPageViewModel/>
+	</ContentPage.BindingContext>-->
+
+</ContentPage>
